@@ -110,10 +110,11 @@ h1 {
 .midnight-party-container {
     width: 1320px;
     height: 600px;
-    border: 2px solid red;
     margin: 0 auto;
     display: flex;
     background-image: url(images/midnight-party.png);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,7 +124,6 @@ h1 {
 .left-side-content {
     width: 50%;
     height: 600px;
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -170,7 +170,6 @@ h1 {
 
 .right-side-content {
     width: 50%;
-    border: 2px solid yellow;
     display: flex;
     justify-content: center;
     align-items: center;
