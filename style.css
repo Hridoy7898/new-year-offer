@@ -119,6 +119,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 16px;
+    margin-bottom: 120px;
 }
 
 .left-side-content {
@@ -180,4 +181,48 @@ h1 {
 .right-side-content img {
     width: 349.16px;
     height: 464.65px;
+}
+
+/* new park hotel styles */
+.new-park-hotel-container {
+    width: 1320px;
+    height: 482px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+
+}
+
+.third-section-content {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    padding: 30px;
+    margin-bottom: 48px;
+
+}
+
+#join-btn {
+    width: 167px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    background-color: #FF0000;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+
+
+}
+
+.span-section {
+    color: rgb(255, 0, 0);
 }
