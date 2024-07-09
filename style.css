@@ -187,7 +187,6 @@ h1 {
 .new-park-hotel-container {
     width: 1320px;
     height: 482px;
-    border: 2px solid red;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
