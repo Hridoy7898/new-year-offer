@@ -60,6 +60,7 @@ h1 {
     height: 806px;
     margin: 0 auto;
     margin-top: 120px;
+    margin-bottom: 120px;
 
 }
 
@@ -99,7 +100,85 @@ h1 {
     height: 500px;
     margin-top: 48px;
 }
-.image-container img{
+
+.image-container img {
     width: 100%;
     height: 100%;
+}
+
+/* midnight section styles */
+.midnight-party-container {
+    width: 1320px;
+    height: 600px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    background-image: url(images/midnight-party.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.left-side-content {
+    width: 50%;
+    height: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.left-side-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    left: 20.15%;
+    right: 31.21%;
+    top: 303.67%;
+    bottom: -233%;
+    margin-bottom: 24px;
+
+}
+
+.left-side-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    left: 266px;
+    right: 357px;
+    top: 2022px;
+    bottom: -1482px;
+    margin-bottom: 48px;
+    padding-left: 50px;
+
+
+}
+
+.midnight-btn {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 380px;
+}
+
+.right-side-content {
+    width: 50%;
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.right-side-content img {
+    width: 349.16px;
+    height: 464.65px;
 }
